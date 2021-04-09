@@ -1,0 +1,28 @@
+font-face {
+    font-family: oswald;
+    src: local"fonts/oswald"
+}  
+font-face {
+    font-family : courgette;
+    src: local"fonts/courgette";
+} 
+         
+
+.container {
+    background-image:url(img/header.jpg);
+    width:min-content;
+    
+    color: white;
+    padding: 40%;
+    margin bottom: 10px;
+    
+}
+
+
+.naviguation {
+    background-color: grey;
+
+    font: oswald;
+    color: white;
+}
+
