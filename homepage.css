@@ -6,23 +6,44 @@ font-face {
     font-family : courgette;
     src: local"fonts/courgette";
 } 
+.background {
+    color: grey;
+}
          
-
-.container {
-    background-image:url(img/header.jpg);
-    width:min-content;
-    
-    color: white;
-    padding: 40%;
-    margin bottom: 10px;
+header {
+    background-image: url("img/header.jpg");            
+    background-size: cover;
+    background-position: center;
     
 }
 
-
-.naviguation {
-    background-color: grey;
-
-    font: oswald;
+.nav-link {
     color: white;
 }
-
+    
+.nav {
+    font-family: oswald;
+    color: white;
+}
+.navbar {
+    background-color: rgb(66, 65, 65);
+    border-bottom: 2px solid;
+}
+.my-4 {
+    width: 80px;
+}
+h1 { 
+    font-family: courgette;
+    color: white;
+}
+h2 {
+    font-family: oswald, bolder;
+}
+h3, h4, h5, h6 {
+    font-family: courgette, bolder ;
+    text-decoration: none;
+}
+p {
+    font-family: oswald sans-serif;
+    font-size: 15px ;  
+}
